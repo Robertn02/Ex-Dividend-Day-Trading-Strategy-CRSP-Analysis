@@ -60,5 +60,3 @@ Place these files in the project root:
    - Example: sort by **dividend yield** `DIVAMT / P_{t-1}` into deciles.
    - Compute returns per decile; assess monotonicity and where performance concentrates.
 
-Each analysis is run **twice**:
-
