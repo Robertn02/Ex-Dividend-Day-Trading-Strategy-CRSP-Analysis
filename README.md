@@ -24,6 +24,7 @@ Place these files in the project root:
 - `CRSP_Dividends.csv` — Ex-day events (common shares only; includes `PRC`, `RET`, `RETX`, `OPENPRC`, `BID`, `ASK`, `vwretd`, `VOL`, etc.)
 - `Yearly Betas.csv` — Stock-level CAPM betas measured at year-end (pre-event, to avoid look-ahead)
 - `^IRX.csv` — 3-Month T-Bill (^IRX) daily series to build daily **rf**
+- `FamaFrenchDaily.csv`
   
 > **Note:** SHROUT is in thousands in CRSP; we convert `mkt_cap = PRC × SHROUT × 1000`.
 
